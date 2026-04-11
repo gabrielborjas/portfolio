@@ -99,3 +99,19 @@ section h2{
 section h3 {
   font-style: italic;
 }
+
+ul.skills{
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em;
+}
+
+ul.skills li {
+  background-color: var(--color-accent);
+  color: white;
+  padding: 0.3em 0.8em;
+  border-radius: 999px;
+  font-size: 0.9em;
+}
