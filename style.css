@@ -84,3 +84,14 @@ h1 {
     text-wrap: balance;
   }
 }
+
+section{
+  border-left: 4px solid var(--color-accent);
+  padding-left: 1em;
+  margin-block: 1.5em;
+}
+
+section h2{
+  border-bottom: 2px solid var(--color-accent);
+  padding-bottom: 0.2em;
+}
