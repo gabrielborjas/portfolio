@@ -33,43 +33,43 @@
   {
     "title": "Project 2: Persuasive/Deceptive Visualization",
     "year": "2026",
-    "image": "/images/empty.svg",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
     "description": "Group project (3-4 members) for DSC 106 exploring the ethics of data visualization design. Crafted two opposing visualizations of the same dataset to demonstrate how design choices can persuade or deceive viewers, followed by anonymous peer review of each team's work."
   },
   {
     "title": "Lab 1: Introduction to the Web Platform",
     "year": "2026",
-    "image": "/images/empty.svg",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
     "description": "Built a personal portfolio website from scratch, learning how the web works end-to-end. Covered the languages behind the web (HTML, CSS, JS), how to write semantic HTML, and how to publish a webpage to a public URL using GitHub Pages."
   },
   {
     "title": "Lab 2: Styling with CSS",
     "year": "2026",
-    "image": "/images/empty.svg",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
     "description": "Styled the personal portfolio site using CSS. Learned core concepts including selectors, the cascade and specificity, absolute vs. relative units, and techniques for customizing fonts, colors, and layout. Handled conflicting style declarations and built a responsive design for the homepage and projects page."
   },
   {
     "title": "Lab 3: Introduction to JavaScript",
     "year": "2026",
-    "image": "/images/empty.svg",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
     "description": "Added interactivity to the portfolio site using JavaScript. Learned JS and JSON data types (primitives, objects, arrays), how to select and manipulate DOM elements on the fly, how to create new elements dynamically, and how to respond to user actions through events."
   },
   {
     "title": "Lab 4: JavaScript II",
     "year": "2026",
-    "image": "/images/empty.svg",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
     "description": "Advanced the portfolio site with modular JavaScript for organizing and maintaining complex projects. Used template literals for dynamic content generation, manipulated the DOM programmatically, and integrated live data from the GitHub API to improve the user experience on the homepage."
   },
   {
-    "title": "Placeholder Project 11",
-    "year": "2024",
-    "image": "/images/empty.svg",
-    "description": "Placeholder description. Replace with another project from your coursework."
+    "title": "DSC 80 Project 1: Gradebook Analysis",
+    "year": "2025",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Analyzed a DSC 80 course gradebook dataset using pandas, applying weighted grade calculations based on a complex syllabus structure (labs 20%, projects 30%, checkpoints 2.5%, discussions 2.5%, midterm 15%, final 30%). Implemented logic for dropped grades, multi-tiered lateness penalties (10%, 30%, 60%), and grace periods, producing a complete pipeline for computing final course grades."
   },
   {
-    "title": "Placeholder Project 12",
-    "year": "2024",
-    "image": "/images/empty.svg",
-    "description": "Placeholder description. Replace with another project from your coursework."
+    "title": "DSC 80 Project 2: LendingClub Loan Applications",
+    "year": "2025",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Explored the LendingClub loan applications dataset to understand how borrower characteristics such as employment status, annual income, and credit score relate to one another and influence loan terms. Investigated why different borrowers receive different interest rates and loan terms even for the same loan amount, working with pandas to analyze loan amounts, issue dates, term lengths, and interest rates."
   }
 ]
