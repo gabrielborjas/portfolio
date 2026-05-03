@@ -89,17 +89,18 @@ export async function fetchJSON(url) {
   }
 }
 
-export function renderProjects(project, containerElement, headingLevel = 'h2') {
+export function renderProject(project, containerElement, headingLevel = 'h2') {
   containerElement.innerHTML = '';
-  project.forEach((p) => {
-    const article = document.createElement('article');
-    article.innerHTML = `
-      <${headingLevel}>${p.title}</${headingLevel}>
-      <img src="${p.image}" alt="${p.title}">
-      <p>${p.description}</p>
-    `;
-    containerElement.appendChild(article);
-  });
+  const article = document.createElement('article');
+  article.innerHTML = `
+    <${headingLevel}>${project.title}</${headingLevel}>
+    <img src="${project.image}" alt="${project.title}">
+    <div>
+      <p>${project.description}</p>
+      <p class="project-year">c. ${project.year}</p>
+    </div>
+  `;
+  containerElement.appendChild(article);
 }
 
 export async function fetchGitHubData(username) {
