@@ -245,3 +245,12 @@ section article {
   font-weight: 300;
 }
 
+.gridlines line {
+  stroke: #ccc;
+  stroke-opacity: 0.4;
+  stroke-dasharray: 2 2;
+}
+
+.gridlines path {
+  display: none;
+}
