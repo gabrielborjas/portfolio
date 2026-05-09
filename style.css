@@ -218,3 +218,29 @@ section article {
 .selected .swatch {
   background-color: var(--color);
 }
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 0.5em 1em;
+  margin: 1em 0;
+  padding: 1em;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+.stats dt {
+  grid-row: 1;
+  font-size: 0.8em;
+  color: #777;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin: 0;
+}
+
+.stats dd {
+  grid-row: 2;
+  margin: 0;
+  font-size: 1.8em;
+  font-weight: 300;
+}
