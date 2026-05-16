@@ -1,5 +1,12 @@
 [
   {
+    "title": "Bikewatching: Boston Bike Traffic Visualization",
+    "year": "2026",
+    "image": "../images/bikemap.png",
+    "description": "Interactive geospatial visualization of BlueBike traffic across Boston and Cambridge using Mapbox GL JS and D3. Overlaid ~260,000 March 2024 rides on the map, sizing station markers by traffic volume and coloring them by flow direction (departures vs. arrivals). Added a time-of-day slider for filtering rides within a ±60-minute window, revealing commute patterns.",
+    "url": "https://gabrielborjas.github.io/bikemap/"
+  },
+  {
     "title": "Tactical Viewer App",
     "year": "2026",
     "image": "https://vis-society.github.io/labs/2/images/empty.svg",
